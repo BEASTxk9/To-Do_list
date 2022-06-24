@@ -133,7 +133,7 @@ function getTodos() {
     todoInput.value = "";
     //Create Completed Button
     const completedButton = document.createElement("button");
-    completedButton.innerHTML = `<i class="fas fa-check"></i>`;
+    completedButton.innerHTML = `<i class="fa-solid fa-circle-xmark"></i>`;
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
     //Create trash button

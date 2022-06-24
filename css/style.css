@@ -76,6 +76,7 @@
   .todo-list {
     min-width: 30%;
     list-style: none;
+    font-family: 'IBM Plex Mono', monospace;
   }
   
   .todo {
