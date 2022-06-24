@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    
   }
- 
+  ::-webkit-scrollbar {
+    width: 0%;
+    background-color: transparent;
+}
+
   body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -124,7 +129,7 @@
   
   
   .fall {
-    transform: translateY(10rem) rotateZ(20deg);
+    transform: translateY(10rem) rotateZ(5deg);
     opacity: 0;
   }
   
