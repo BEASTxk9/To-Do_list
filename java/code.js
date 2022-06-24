@@ -10,6 +10,8 @@ todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteTodo);
 filterOption.addEventListener("click", filterTodo);
 
+
+
 //Functions
 
 function addTodo(e) {
@@ -21,6 +23,7 @@ function addTodo(e) {
   //Create list
   const newTodo = document.createElement("li");
   newTodo.innerText = todoInput.value;
+  
   //Save to local - do this last
   //Save to local
   saveLocalTodos(todoInput.value);
@@ -45,6 +48,8 @@ function addTodo(e) {
 function deleteTodo(e) {
   const item = e.target;
 
+  
+
   if (item.classList[0] === "trash-btn") {
     // e.target.parentElement.remove();
     const todo = item.parentElement;
@@ -60,6 +65,7 @@ function deleteTodo(e) {
     todo.classList.toggle("completed");
     console.log(todo);
   }
+  
 }
 
 function filterTodo(e) {
@@ -138,4 +144,6 @@ function getTodos() {
     //attach final Todo
     todoList.appendChild(todoDiv);
   });
+  
 }
+
