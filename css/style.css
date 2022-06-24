@@ -98,7 +98,7 @@
   
   .trash-btn,
   .complete-btn {
-    background: white;
+    background: red;
     color: white;
     border: none;
     padding: 1rem;
@@ -110,11 +110,6 @@
     background: white;
     transition: all 0.3s ease-in-out;
   }
-
-.trash-btn:hover{
-    background: red;
-    
-}
 
 .complete-btn:hover{
     background: rgb(13, 196, 13);
