@@ -177,10 +177,6 @@
   }
 
   @media all and (max-width: 780px) {
-    .complete-btn{
-        color: white;
-        background: rgb(13, 196, 13);
-    }
 
     #heading{
         font-size: 2rem;
