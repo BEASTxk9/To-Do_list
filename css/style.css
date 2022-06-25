@@ -175,3 +175,18 @@
     pointer-events: none;
     border-radius: 5px;
   }
+
+  @media all and (max-width: 780px) {
+    .complete-btn{
+        color: white;
+        background: rgb(13, 196, 13);
+    }
+
+    #heading{
+        font-size: 2rem;
+    }
+
+    .todo{
+        font-size: 1rem;
+    }
+}
